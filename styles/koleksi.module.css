@@ -1,0 +1,415 @@
+.main{
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+.header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 91%;
+
+    background: rgba(14, 140, 49, 0.8);
+    border-radius: 5px;
+  }
+.peron{
+    position: absolute;
+    height: 80px;
+    width: 197px;
+    left: 122px;
+    top: 5px;
+    border-radius: 0px;
+
+    background: url("asset/logo.png");
+    background-repeat: no-repeat;
+}
+
+.tombol_beranda {
+    position: absolute;
+    height: 26px;
+    width: 90px;
+    left: 482px;
+    top: 35px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FBFBFB;
+  }
+
+  .tombol_koleksi {
+    position: absolute;
+    width: 73px;
+    height: 26px;
+    left: 662px;
+    top: 35px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FBFBFB;
+  }
+  .tombol_koleksi_active {
+    position: absolute;
+    width: 73px;
+    height: 26px;
+    left: 662px;
+    top: 35px;
+    
+    padding-bottom: 35px;
+    padding-left: 4px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    color: #FBFBFB;
+  }
+
+  .tombol_survey {
+    position: absolute;
+    width: 73px;
+    height: 26px;
+    left: 825px;
+    top: 35px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FBFBFB;
+  }
+
+  .tombol_dashboard {
+    position: absolute;
+    width: 128px;
+    height: 26px;
+    left: 988px;
+    top: 35px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FBFBFB;
+  }
+.profile {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1390px;
+    top: 20px;
+    padding: 0;
+    border: none;
+
+    background:url("asset/profile.png")
+  }
+.box1{
+    position: absolute;
+    left: 9.03%;
+    right: 67.57%;
+    top: 20.12%;
+    bottom: 34.47%;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.box2{
+    position: absolute;
+    left: 38.82%;
+    right: 37.88%;
+    top: 20.12%;
+    bottom: 34.47%;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.box3{
+    position: absolute;
+    left: 68.06%;
+    right: 8.94%;
+    top: 20.12%;
+    bottom: 34.47%;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.tipea{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 33.51%;
+    background-repeat: no-repeat;
+    background: url("asset/tipea.png");
+}
+
+.tipeb{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 33.51%;
+    background-repeat: no-repeat;
+    background: url("asset/tipeb.png");
+}
+
+.tipec{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 33.51%;
+    background-repeat: no-repeat;
+    background: url("asset/tipec.png");
+} 
+
+.font1box1{
+    position: absolute;
+    left: -0.04%;
+    right: 0.04%;
+    top: 65.88%;
+    bottom: 19.85%;
+}
+
+.font1box1 p1{
+    position: absolute;
+    left: 1.96%;
+    right: -9.96%;
+    top: 7.88%;
+    bottom: 52.85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box1 p2{
+    position: absolute;
+    left: 2.03%;
+    right: 24.61%;
+    top: 55.47%;
+    bottom: 39.26%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box1 p3{
+    position: absolute;
+    left: 2.03%;
+    right: 0.21%;
+    top: 191.21%;
+    bottom: 35.16%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.font1box2{
+    position: absolute;
+    left: -0.04%;
+    right: 0.04%;
+    top: 65.88%;
+    bottom: 19.85%;
+}
+
+.font1box2 p1{
+    position: absolute;
+    left: 1.96%;
+    right: -9.96%;
+    top: 7.88%;
+    bottom: 52.85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box2 p2{
+    position: absolute;
+    left: 2.03%;
+    right: -3.39%;
+    top: 55.47%;
+    bottom: 39.26%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box2 p3{
+    position: absolute;
+    left: 2.03%;
+    right: 0.21%;
+    top: 191.21%;
+    bottom: 35.16%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.font1box3{
+    position: absolute;
+    left: -0.04%;
+    right: 0.04%;
+    top: 65.88%;
+    bottom: 19.85%;
+}
+
+.font1box3 p1{
+    position: absolute;
+    left: 1.96%;
+    right: -9.96%;
+    top: 7.88%;
+    bottom: 52.85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box3 p2{
+    position: absolute;
+    left: 2.03%;
+    right: -3.39%;
+    top: 55.47%;
+    bottom: 39.26%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.font1box3 p3{
+    position: absolute;
+    left: 2.03%;
+    right: 0.21%;
+    top: 191.21%;
+    bottom: 35.16%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.boxray1{
+    position: absolute;
+    left: 9.03%;
+    right: 65.97%;
+    top: 70.12%;
+    bottom: 34.47%;
+    width: 356px;
+    height: 120px;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.boxray2{
+    position: absolute;
+    left: 38.82%;
+    right: 37.88%;
+    top: 70.12%;
+    bottom: 34.47%;
+    width: 356px;
+    height: 120px;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.boxray3{
+    position: absolute;
+    left: 68.06%;
+    right: 8.94%;
+    top: 70.12%;
+    bottom: 34.47%;
+    width: 356px;
+    height: 120px;
+    background: rgba(119, 129, 92, 0.3);
+}
+
+.footer{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 83.76%;
+    bottom: 0%;
+    background: #FFFFFF;
+}
+
+.boxfoot{
+    position: absolute;
+    width: 281px;
+    height: 110px;
+    left: 630px;
+    top: 23px;
+    background-color: antiquewhite;
+}
+
+.tk{
+    position: absolute;
+    width: 254px;
+    height: 27px;
+    left: 16px;
+    top: 11px;
+    background: url("asset/tentang\ kontak.png");
+}
+
+.boxfoot p{
+    position: absolute;
+    width: 281px;
+    height: 85px;
+    left: 4px;
+    top: 79px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #0A142F;
+    mix-blend-mode: normal;
+    opacity: 0.65;
+}
+
+.sosmed{
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 117px;
+    top: 49px;
+    background: url("asset/sosmed.png");
+}
